@@ -52,7 +52,7 @@ const model: Model = {
 
 const App = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div>
       <h1>Редактирование параметров товара</h1>
       <ParamEditor params={params} model={model} />
     </div>
